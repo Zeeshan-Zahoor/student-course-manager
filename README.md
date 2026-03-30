@@ -155,15 +155,24 @@ npm run dev
 
 ## 📸 Screenshots
 
-> Add screenshots here for better presentation
-> (Home page, Student list, Search, Comparison page)
+### 🏠 Home Page
+![Home](screenshots/home.png)
+
+### 📚 Student List
+![Students](screenshots/students.png)
+
+### 🔍 Search Feature
+![Search](screenshots/search.png)
+
+### 📊 SQL vs MongoDB Comparison
+![Comparison](screenshots/comparison.png)
 
 ---
 
 ## 🧠 Author
 
+Zeeshan Zahoor.
 Developed as a DBMS mini project.
-Built with guidance using AI tools, with full understanding of implementation and concepts.
 
 ---
 
