@@ -13,7 +13,13 @@ def add_student():
 
 @student_bp.route("/all", methods=["GET"])
 def all_students():
-    return jsonify(get_students())
+    try:
+        data = get_students()
+        print("Students fetched:", data)
+        return jsonify(data)
+    except Exception as e:
+        print("ERROR:", e)
+        return jsonify({"error": str(e)}), 500
 
 @student_bp.route("/add-course", methods=["POST"])
 def add_course_route():

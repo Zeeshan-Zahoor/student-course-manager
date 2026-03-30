@@ -3,7 +3,7 @@ from flask_cors import CORS
 from routes.student_routes import student_bp
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])
+CORS(app)
 
 app.register_blueprint(student_bp, url_prefix="/students")
 
